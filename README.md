@@ -30,27 +30,9 @@ Problem 3: Some district proficiency scores seem to be misrecorded
 Solution: With such a large dataset (all public school districts in the country), I chose to drop any districts that had non-numeric and negative reading assessment scores recorded. As I was not using math assessments, I kept districts where math scores may have been wrong but dropped the column for math scores.
 
 4. Exploratory data analysis
-download%20%285%29.png
-download%20%286%29.png
-
-download%20%282%29.png
-
-download%20%281%29.png
-
-download%20%288%29.png
-
-download%20%287%29.png
-
-download%20%284%29.png
-
-download.png
 
 5. Developing and comparing algorithms
-1
-import pandas as pd
-2
-​
-3
+
 data = {'Model': ['mean_train', 'mean_test', 'lr_tr', 'lr_te', 'ppln_lr_tr', 'ppln_lr_te', 'ppln_kbest_tr', 'ppln_kbest_te', 'rnd_for_reg_tr', 'rnd_for_reg_te', 'log_reg_tr', 'log_reg_te'],
 4
         'r2': [0.0, -0.0006368, 0.8859232, 0.8781678, 0.8718419, 0.86247707, 0.8821577, 0.87607100, 0.9999368121568096, 0.9998809154931012, 0.09114604427649275, 0.9998809154931012],
