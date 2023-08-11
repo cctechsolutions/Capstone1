@@ -1,25 +1,27 @@
 Data supported recommendations for school boards:
-Research question: Do literacy rates have any correlation with book bans?
+     
+**Research question: Do literacy rates have any correlation with book bans?**
 
 1. Data
-Banned Books
-8th grade literacy
-4th grade literacy
+     Banned Books
+     8th grade literacy
+     4th grade literacy
 
-2. Method
-Problem identification
-Data wrangling and cleaning
-Exploratory analysis
-Descriptive summary statistics
-Data visualizations
-Correlation matrices
-Machine learning models
-Regression (linear, logistic, multivariate)
-Classification (random forest, kmeans, support vector machines)
-Model performance metrics and comparison
-Predictive analysis
-Recommendations
-3. Data cleaning
+2. Methods
+     Problem identification
+     Data wrangling and cleaning
+     Exploratory analysis
+     Descriptive summary statistics
+     Data visualizations
+     Correlation matrices
+     Machine learning models
+     Regression (linear, logistic, multivariate)
+     Classification (random forest, kmeans, support vector machines)
+     Model performance metrics and comparison
+     Predictive analysis
+     Recommendations
+3. Data cleaning    
+     
 Problem 1: Book ban dates are in different formats
 Solution: I converted all dates to one common format. For entries without specific dates listed, I used the midpoint date of the season or year listed. For “Fall 2021” I used November 7th, 2021, as this is the midway point between the start and end of Fall. I then converted this to a datetime object like the entries with specific dates given.
 
