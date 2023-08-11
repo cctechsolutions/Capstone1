@@ -144,13 +144,13 @@ Are some of the largest school districts in the country likely to have book bans
 Result: Yes, it appears as though some of the largest districts do have book bans, both according to our model and according to the data. Using data from some of the 20 largest real school districts in our country, the algorithm predicted at least one book ban for each district. However, when these results are compared against our book ban data, we find that only 1 of those 4 districts did in fact have banned books. This is a reminder that, while predictive algorithms can be useful, the insights from these models are not always accurate. However, one in four correct predictions is significantly better than random chance in predicting whether a district will have a book ban, and therefore, I call this modeling scenario slightly successful.
 
 7. Conclusions and recommendations
-1. Slight positive correlation between reading proficiency and book bans
+a. Slight positive correlation between reading proficiency and book bans
 This means that a district with at least one book ban tends to have higher than average student reading proficiency rates compared with districts without any book bans.
 
-2. Larger school districts are more likely to have at least one book ban
+b. Larger school districts are more likely to have at least one book ban
 District size, in terms of number of students, is positively correlated with book bans. Books are more frequently banned in districts with a large number of student than in districts with smaller numbers of students.
 
-3. Recommendations for school boards and administrators
+c. Recommendations for school boards and administrators
 Without further research, we cannot make conclusions on cause or effect. However, I would recommend conducting further research to determine what additional variables might affect both literacy rates and whether a district bans books. Importantly, I do not recommend banning books, as this data does not suggest that this causes any impact on reading literacy. I suspect that extraneous variables are more likely to cause increases in both book bans and reading proficiency rates rather than either being the cause of an increase in the other. As larger school districts are more likely to have book bans without necessarily having higher than average reading proficiency rates, I would not recommend increasing school district sizes. However, without more information that might offer causal insights, I would not necessarily recommend decreasing district sizes. Further research would be required in order to offer such recommendations.
 
 8. Future work
